@@ -1,12 +1,8 @@
 import React from "react";
-const CatDisplay = () => {
+const CatDisplay = catpics => {
   return (
     <div>
-      <img
-        src="https://thecatapi.com/v1/images?api_key=57550cc0-7b2d-4b51-ae09-8aa043ce9e5f"
-        crossorigin="7ara1i"
-        alt="catimage"
-      />
+      <img src={this.prop.url} alt="catimage" />
     </div>
   );
 };

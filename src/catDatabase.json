@@ -1,0 +1,10 @@
+{
+  "catsDatabase": [
+    { "name": "tabby", "age": 3, "url": "https://placekitten.com/200/300" },
+    { "name": "kitty", "age": 2, "url": "https://placekitten.com/200/301" },
+    { "name": "smily", "age": 1, "url": "https://placekitten.com/200/302" },
+    { "name": "grumpy", "age": 4, "url": "https://placekitten.com/200/303" },
+    { "name": "jokey", "age": 6, "url": "https://placekitten.com/200/304" },
+    { "name": "cutie", "age": 7, "url": "https://placekitten.com/200/305" }
+  ]
+}
