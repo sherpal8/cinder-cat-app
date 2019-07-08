@@ -1,0 +1,16 @@
+.Info {
+    box-shadow: 0 2px 3px 0 rgba(0,0,1,0.5);
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    padding: 10px;
+}
+
+.Info .NameAge {
+    padding: 2px;
+    font-weight: bold
+    
+    }
+
+.Info .Job {
+    padding: 2px;
+}

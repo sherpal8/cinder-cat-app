@@ -4,7 +4,7 @@ import "./CatDisplay.css";
 const CatDisplay = ({ catPic, catName, catAge }) => {
   return (
     <div>
-      <img src={catPic} alt="catPics" />
+      <img className="ProfilePic" src={catPic} alt="catPics" />
       <div className="Text">
         {catName}, {catAge}
       </div>

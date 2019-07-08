@@ -1,7 +1,23 @@
-.profilePic {
-    position: relative; 
-    width:100px;
+@import url(//db.onlinewebfonts.com/c/e226d1a6a55ad0fb030ec9dec70a69b3?family=HipsterScriptW00-Regular);
+/* @font-face {font-family: "HipsterScriptW00-Regular";
+    src: url("//db.onlinewebfonts.com/t/e226d1a6a55ad0fb030ec9dec70a69b3.eot");
+    src: url("//db.onlinewebfonts.com/t/e226d1a6a55ad0fb030ec9dec70a69b3.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/e226d1a6a55ad0fb030ec9dec70a69b3.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/e226d1a6a55ad0fb030ec9dec70a69b3.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/e226d1a6a55ad0fb030ec9dec70a69b3.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/e226d1a6a55ad0fb030ec9dec70a69b3.svg#HipsterScriptW00-Regular") format("svg");
+} */
+
+
+.ProfilePic {
+    margin-top: 0;
+    margin-bottom: 0;
+    /* position: relative;  */
+    display: block;
+    max-width: 500px;
     text-align: center;
+    /* overflow: hidden; */
+    box-shadow: 0 2px 3px 0 rgba(0,0,1,0.5);
 }
 
 .Text {
@@ -11,4 +27,9 @@
     font-size: 2.5em;
     color: white;
     /* border: 2px solid black; */
+}
+
+.Match {
+    font-family: "HipsterScriptW00-Regular";
+
 }
