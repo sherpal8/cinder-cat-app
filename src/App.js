@@ -2,7 +2,6 @@ import React from "react";
 import "./App.css";
 import Heading from "./components/Heading";
 import CatDisplay from "./components/CatDisplay";
-// import CatQuote from "./components/CatQuote";
 import CatVoter from "./components/CatVoter";
 import { catDatabase } from "./catDatabase.json";
 
@@ -17,19 +16,16 @@ class App extends React.Component {
           catName={catDatabase[this.state.catIndex].name}
           catAge={catDatabase[this.state.catIndex].age}
         />
-        {/* <CatQuote /> */}
-        <CatVoter likedFunc={this.likedFunc} />
+        <CatVoter/>
       </div>
     );
   }
-  //   const liked = this.state.catDatabase[2].liked};
-  likedFunc(catIndex) {
+  nextProfile(catIndex) {
+    console.log('REQUESTED NEXT PROFILE')
+    // catIndex++
     console.log(catIndex);
-    this.setState(state => {
-      catIndex++;
-    });
+    this.setState({catIndex: catIndex++});
   }
-  // // likedFunc()
 }
 
 export default App;
